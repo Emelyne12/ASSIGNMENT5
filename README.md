@@ -1,23 +1,27 @@
-# Parallax Website Clone
+# Parallax Website Project
 
-## Description
-This project is a clone of the W3Schools Parallax Template.
-The theme is a personal portfolio showcasing Emelyne INGABIRE NIYOMUBYEYI as a Web Designer and Frontend Developer.
+This project is a **responsive parallax website** created using **HTML and CSS only**.  
+It is inspired by the W3Schools Parallax Template but fully rewritten and customized as part of an academic assignment.
 
-## Features
-- Single Page Application (SPA)
-- Parallax scrolling effect
-- Fixed navigation bar
-- Google Fonts
-- Google Map iframe
-- Responsive design with media queries
+## 👤 Author
+**NIYOMUBYEYI INGABIRE Emelyne**
 
-## Technologies Used
+## 📌 Project Description
+The purpose of this project is to demonstrate:
+- Proper use of **semantic HTML**
+- Advanced **CSS styling**
+- Implementation of the **parallax scrolling effect**
+- Clean layout structure for a personal portfolio website
+
+The website includes sections for:
+- Home (Parallax Hero)
+- About Me
+- Skills
+- Portfolio Gallery
+- Contact Form
+
+## 🛠 Technologies Used
 - HTML5
-- CSS3
+- CSS3 (Parallax scrolling, Flexbox, Grid)
 
-## Student Information
-Name: Emelyne INGABIRE NIYOMUBYEYI  
-Course: Web Design / Frontend Development
-# ASSIGNMENT5
-This is a single-page parallax website built using semantic HTML and external CSS.
+## 📂 Project Structure
