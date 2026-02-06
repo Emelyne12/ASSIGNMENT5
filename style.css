@@ -1,60 +1,153 @@
-body {
+html, body {
   margin: 0;
-  font-family: 'Poppins', sans-serif;
-  color: #444;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #555;
 }
 
 .navbar {
   position: fixed;
   top: 0;
   width: 100%;
-  background: #ffb6c1;
-  padding: 10px;
-  text-align: center;
+  background: #fff;
+  padding: 12px 30px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  z-index: 1000;
 }
 
 .navbar a {
-  color: white;
-  margin: 0 15px;
   text-decoration: none;
+  margin-right: 20px;
+  color: #555;
   font-weight: bold;
 }
 
 .navbar a:hover {
-  text-decoration: underline;
+  color: black;
 }
 
 .parallax {
-  height: 100vh;
+  min-height: 100vh;
   background-attachment: fixed;
   background-position: center;
+  background-repeat: no-repeat;
   background-size: cover;
   display: flex;
-  flex-direction: column;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
+}
+
+.bg1 {
+  background-image: url("emel2.jpeg");
+}
+
+.bg2 {
+  background-image: url("https://via.placeholder.com/1600x900");
+}
+
+.logo {
+  background: rgba(0,0,0,0.7);
   color: white;
+  padding: 15px 25px;
+  letter-spacing: 3px;
+  font-size: 24px;
+}
+
+.section {
+  padding: 90px 10%;
+  background: #fff;
+}
+
+.section h2 {
+  text-align: center;
+  letter-spacing: 2px;
+}
+
+.subtitle {
+  text-align: center;
+  font-style: italic;
+}
+
+.about {
+  display: flex;
+  gap: 40px;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 40px;
+}
+
+.about img {
+  width: 300px;
+  border-radius: 5px;
+}
+
+.center {
   text-align: center;
 }
 
-.bg1 { background-image: url("images/pink1.jpg"); }
-.bg2 { background-image: url("images/pink2.jpg"); }
-.bg3 { background-image: url("images/pink3.jpg"); }
+.skill {
+  margin: 20px 0;
+}
 
-.content {
-  padding: 60px 20px;
-  background: #fff0f5;
-  text-align: center;
+.skill-bar {
+  background: #ddd;
+  border-radius: 3px;
+}
+
+.skill-fill {
+  background: #333;
+  color: white;
+  padding: 8px;
+  border-radius: 3px;
+}
+
+.w90 { width: 90%; }
+.w85 { width: 85%; }
+.w75 { width: 75%; }
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 15px;
+  margin-top: 40px;
+}
+
+.gallery img {
+  width: 100%;
+  cursor: pointer;
+}
+
+.map iframe {
+  width: 100%;
+  height: 450px;
+  border: 0;
+}
+
+.contact input,
+.contact textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.contact button {
+  background: black;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
 }
 
 footer {
-  background: #ffb6c1;
+  background: #222;
   color: white;
   text-align: center;
-  padding: 15px;
+  padding: 30px;
 }
-
-@media (max-width: 600px) {
-  h1 { font-size: 22px; }
-  .parallax { height: 70vh; }
+#pic{
+    position: center;
+    width: 450px;
+    height: 450px;
+    border-radius: 60%;
+    justify-content: center;
 }

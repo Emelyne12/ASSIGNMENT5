@@ -2,69 +2,91 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Parallax Website Clone</title>
-
-  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
-
+  <title>NIYOMUBYEYI INGABIRE Emelyne</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
-    <header class="navbar">
-  <a href="#home">Home</a>
-  <a href="#about">About</a>
-  <a href="#gallery">Gallery</a>
-  <a href="#contact">Contact</a>
+  <div class="navbar">
+    <a href="#home">HOME</a>
+    <a href="#about">ABOUT</a>
+    <a href="#portfolio">PORTFOLIO</a>
+    <a href="#contact">CONTACT</a>
+  </div>
 
-</header>
+  <section id="home" class="parallax bg1">
+    <div class="logo">MY WEBSITE LOGO</div>
+  </section>
 
-<section id="home" class="parallax bg1">
-  <h1>Emelyne INGABIRE NIYOMUBYEYI</h1>
-  <p>Web Designer & Frontend Developer</p>
-</section>
+  <section id="about" class="section">
+    <h2>ABOUT ME</h2>
+    <p class="subtitle">I love creativity and technology</p>
 
-<section id="about" class="content">
-  <h2>About Me</h2>
-  <p>
-    I am Emelyne, a passionate Web Designer and Frontend Developer.
-    I love creating elegant, responsive, and user-friendly websites.
-  </p>
-</section>
+    <div class="about">
+      <img src="emel3.jpeg" alt="Profile image" width="100" height="auto" id="pic">
+      <p>
+        My name is <strong>NIYOMUBYEYI INGABIRE Emelyne</strong>.  
+        I am passionate about web design and enjoy creating simple, clean, and
+        modern websites using HTML and CSS. This page is inspired by a parallax layout.
+      </p>
+    </div>
 
-<section class="parallax bg2">
-  <h2>My Skills</h2>
-</section>
+    <h3 class="center">I'm really good at:</h3>
 
-<section id="gallery" class="content">
-  <h2>Portfolio Highlights</h2>
-  <ul>
-    <li>HTML & CSS</li>
-    <li>Responsive Design</li>
-    <li>Parallax Effects</li>
-  </ul>
-</section>
+    <div class="skill">
+      Photography
+      <div class="skill-bar"><div class="skill-fill w90">90%</div></div>
+    </div>
 
-<section class="parallax bg3">
-  <h2>Let’s Work Together</h2>
-</section>
+    <div class="skill">
+      Web Design
+      <div class="skill-bar"><div class="skill-fill w85">85%</div></div>
+    </div>
 
-<section id="contact" class="content">
-  <h2>Contact Me</h2>
-  <p>Email:ingabiremelyne1234@gmail.com </p>
+    <div class="skill">
+      Photoshop
+      <div class="skill-bar"><div class="skill-fill w75">75%</div></div>
+    </div>
+  </section>
 
-   <iframe
-    src="https://www.google.com/maps?q=Kigali&output=embed"
-    width="100%"
-    height="300"
-    loading="lazy">
-  </iframe>
-</section>
+  <section class="parallax bg2"></section>
 
+  <section id="portfolio" class="section">
+    <h2>MY WORK</h2>
+    <p class="center">Click images to view (replace with your own)</p>
 
-<footer>
-  <p>@ 2026 Emelyne INGABIRE NIYOMUBYEYI</p>
-</footer>
+    <div class="gallery">
+      <img src="eme1.jpeg">
+      <img src="eme2.jpeg">
+      <img src="eme3.jpeg">
+      <img src="eme4.jpeg">
+      <img src="eme5.jpeg">
+    </div>
+  </section>
 
+  <section class="map">
+    <iframe
+      src="https://www.google.com/maps?q=Kigali,Rwanda&output=embed"
+      loading="lazy"
+      referrerpolicy="no-referrer-when-downgrade">
+    </iframe>
+  </section>
+
+  <section id="contact" class="section contact">
+    <h2>CONTACT</h2>
+    <p class="center">Leave me a message</p>
+
+    <input type="text" placeholder="Name">
+    <input type="email" placeholder="Email">
+    <textarea rows="5" placeholder="Message"></textarea>
+    <button>SEND MESSAGE</button>
+  </section>
+
+  <footer>
+    @ 2026 | NIYOMUBYEYI INGABIRE Emelyne
+  </footer>
 
 </body>
 </html>
